@@ -28,7 +28,7 @@ Sea turtle species tracked at seaturtle.org  http://www.seaturtle.org/tracking/)
 
 Uberti also wrote a book with James Cheshire, which further details and explores technologies used to track animal migrations: Cheshire, James & Uberti, Oliver. (2017). Where the animals go: Tracking wildlife with technology in 50 maps and graphics. W. W. Norton & Company. 
 
-Image sources:
+Picture1 sources:
 (Top image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
 https://oliveridleyproject.org/hawksbill-turtle
 
