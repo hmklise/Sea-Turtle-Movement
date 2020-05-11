@@ -34,9 +34,10 @@ https://oliveridleyproject.org/hawksbill-turtle
 (Bottom image) Female Oliver ridley turtle nesting on the beach during arribada © Susie Gibson
 https://oliveridleyproject.org/olive-ridley-turtle
 
-
+______________________________________________________
 
 Walking through the code:
+
 As is often the case, hours of work ended up being less than 20 lines of code. 
 
 I was working with data that I used for a regular expression challenge and I extracted the latitude and longitude coordinates with a regular expression. Separately, I found a tutorial online for gmap - the google maps API. Figuring out how to request a google maps API was frustrating until I found the right webpage that walked me through it step by step. This tutorial, which also took me a long time to find, also showed how to use the gmplot - a module for google maps - to plot coordinates onto a google map. The test worked, then I hardcoded 8 coordinates into the list and it worked, but I hit a wall when I needed to put my 3000+ coordinates into the gmap and gmplot code as a list. 
