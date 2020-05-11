@@ -28,7 +28,7 @@ I’ve been fascinated with sea turtles since I witnessed Loggerheads nesting an
 
 
 
-## Olive Ridley Sea Turtle paths of nesting females
+## Olive Ridley Sea Turtle paths
 
 ![olive ridley1](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley1.jpg)
 ![olive ridley2](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley2.jpg)
