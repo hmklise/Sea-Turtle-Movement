@@ -1,7 +1,7 @@
 # Sea-Turtle-Movement
 Final project for PFCH
 
-![turtles](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/turtles.jpg)
+![turtles](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/turtles2.jpg)
 
 # “Just Keep Swimming:” Movements of Olive Ridley and Hawksbill Sea Turtles
 
@@ -60,7 +60,5 @@ Eventually, I realized that the data I was working with was a TSV instead of a C
 ----
 ### Top of page photo sources:
 
-* (left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
-https://oliveridleyproject.org/hawksbill-turtle
-* (right image) Female Oliver ridley turtle nesting on the beach during arribada © Susie Gibson
-https://oliveridleyproject.org/olive-ridley-turtle
+* (left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli https://oliveridleyproject.org/hawksbill-turtle
+* (right image) https://www.worldwildlife.org/species/olive-ridley-turtle]
