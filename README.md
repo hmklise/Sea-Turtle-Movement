@@ -60,5 +60,5 @@ Eventually, I realized that the data I was working with was a TSV instead of a C
 ----
 ### Top of page photo sources:
 
-* (left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli https://oliveridleyproject.org/hawksbill-turtle
-* (right image) https://www.worldwildlife.org/species/olive-ridley-turtle]
+* [(left image)](https://oliveridleyproject.org/hawksbill-turtle) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
+* [(right image)](https://www.worldwildlife.org/species/olive-ridley-turtle) Olive Ridley turtle 
