@@ -1,6 +1,8 @@
 # Sea-Turtle-Movement
 Final project for PFCH
 
+“Just Keep Swimming”: Movements of Olive Ridley and Hawksbill Sea Turtles 
+
 
 The original goal of this project was to map the movement of sea turtles. 
 I was inspired by an article that I read a few years ago in Nautilus magazine, Where the Wild Things Go (http://nautil.us/issue/51/limits/where-the-wild-things-go). Oliver Uberti wrote the article and also created the gorgeous illustrated maps of elephant and sea turtle migration data. “To protect animals you need to protect where they go,” said Archie Carr, one of the pioneer sea turtle trackers when asked about the reason for tracking wild animals. The ocean has a number of Marine Protected Areas (MPAs) to protect habitats and migration routes from fishing and shipping routes. Sea turtle tracking supports animal welfare by showing scientists the amount of ocean area that needs to be protected to save these species from extinction. 
