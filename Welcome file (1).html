@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><img src="https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/turtles2.jpg" alt="turtles"></p>
+<h1 id="“just-keep-swimming”-movements-of-olive-ridley-and-hawksbill-sea-turtles">“Just Keep Swimming:” Movements of Olive Ridley and Hawksbill Sea Turtles</h1>
+<p>The original goal of this project was to map the movement of sea turtles.</p>
+<p>I was inspired by an article that I read a few years ago in Nautilus magazine, <a href="http://nautil.us/issue/51/limits/where-the-wild-things-go">Where the Wild Things Go</a>. Oliver Uberti wrote the article and also created the gorgeous illustrated maps of elephant and sea turtle migration data. “To protect animals you need to protect where they go,” said Archie Carr, one of the pioneer sea turtle trackers, when asked about the reason for tracking wild animals. The ocean has a number of Marine Protected Areas (MPAs) to protect habitats and migration routes from fishing and shipping routes. Sea turtle tracking supports animal welfare by showing scientists the amount of ocean area that needs to be protected to save these species from extinction. In the article, Uberti highlights the <a href="http://www.seaturtle.org/mtrg/">Marine Turtle Research Group</a> at the University of Exeter and their project, <a href="http://seaturtle.org/tracking/">seaturtle.org</a>, to track loggerhead sea turtles. The resulting maps created from seaturtle data, are visually stunning and easy to read, I’ve thought about these maps multiple times since the article came out.</p>
+<p>For my map, I chose to use data from the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a>, because it was more straightforward and easier to work with. Even though the data is from 2005 and 2009-11 and is already plotted on maps on the website, I wanted to see if I could successfully map data as well. Olive Ridley (<a href="https://www.gbif.org/dataset/e9493ed6-55ba-43e8-bcda-fef47ba441e3"><em>Lepidochelys olivacea</em></a>) are the second smallest sea turtle species at about 2.5 feet. Hawksbill turtles (<a href="https://www.gbif.org/dataset/dab5a4c8-2dd8-48cc-8960-4be487d8995a"><em>Eretmochelys imbricata</em></a>) have the most vibrant shells and are what most people picture when they think of sea turtles. Both are found in Australia and are the subjects of the data that I used. The Olive Ridley population has been nearly cut in half since 1960 and the Hawksbill population has decreased by over 80 percent in the last century.</p>
+<p>I’ve been fascinated with sea turtles since I witnessed Loggerheads nesting and hatching in Trinidad. I’m curious about Geographic Information Systems, and am trying to figure out how to translate a LIS degree to a job at a zoo, aquarium, or marine biology research station.</p>
+<h2 id="hawksbill-sea-turtle-paths">Hawksbill Sea Turtle paths</h2>
+<p><img src="https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/hawksbill2.jpg" alt="Hawksbill1"><br>
+<img src="https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/hawksbill1.jpg" alt="hawksbill2"></p>
+<h2 id="olive-ridley-sea-turtle-paths">Olive Ridley Sea Turtle paths</h2>
+<p><img src="https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley1.jpg" alt="olive ridley1"><br>
+<img src="https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley2.jpg" alt="olive ridley2"></p>
+<hr>
+<h3 id="data-source">Data source:</h3>
+<p>Data was sourced from the Integrated Marine Observing System (IMOS) - IMOS is supported by the Australian Government through the National Collaborative Research Infrastructure Strategy and the Super Science Initiative.</p>
+<p>Satellite tracking of female olive ridley sea turtles (Lepidochelys olivacea) nesting in the Wessel Islands, Northern Territory, 2005<br>
+<a href="http://GBIF.org">GBIF.org</a> (5 April 2020) GBIF Occurrence Download <a href="https://doi.org/10.15468/dl.no7th6">https://doi.org/10.15468/dl.no7th6</a></p>
+<p>Satellite tagging of female hawksbill sea turtles (Eretmochelys imbricata) nesting on Groote Eylandt, Northern Territory, 2009-2011<br>
+<a href="http://GBIF.org">GBIF.org</a> (20 April 2020) GBIF Occurrence Download <a href="https://doi.org/10.15468/dl.gnpapz">https://doi.org/10.15468/dl.gnpapz</a></p>
+<hr>
+<h3 id="further-resources">Further Resources:</h3>
+<p>Sea turtle species tracked at <a href="http://seaturtle.org">seaturtle.org</a> <a href="http://www.seaturtle.org/tracking/">http://www.seaturtle.org/tracking/</a>): Hawksbill, Loggerhead, Green Turtle, Olive Ridley, Kemp’s Ridley, and Flatback.<br>
+Uberti also wrote a book with James Cheshire, which further details and explores technologies used to track animal migrations: Cheshire, James &amp; Uberti, Oliver. (2017). Where the animals go: Tracking wildlife with technology in 50 maps and graphics. W. W. Norton &amp; Company.</p>
+<hr>
+<h3 id="walking-through-the-code">Walking through the code:</h3>
+<p>As is often the case, hours of work ended up being less than 20 lines of code.</p>
+<p>I was working with data that I used for a regular expression challenge and I extracted the latitude and longitude coordinates with a regular expression. Separately, I found a tutorial online for gmap - the google maps API. Figuring out how to request a google maps API was frustrating until I found the right webpage that walked me through it step by step. This tutorial, which also took me a long time to find, also showed how to use the gmplot - a module for google maps - to plot coordinates onto a google map. The test worked, then I hardcoded 8 coordinates into the list and it worked, but I hit a wall when I needed to put my 3000+ coordinates into the gmap and gmplot code as a list.</p>
+<p>Eventually, I realized that the data I was working with was a TSV instead of a CSV. I opened it with Numbers and converted it to a CSV. I then used Pandas - another module - to manipulate the CSV data into a list. With the help of google and other tutorials, I figured out the code to extract the latitude column and the longitude column as lists and put them into my gmplot code. From that point it was just a matter of playing around with the appearance of the lines and points.</p>
+<hr>
+<h3 id="main-page-photo-sources">Main page photo sources:</h3>
+<ul>
+<li>(left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli <a href="https://oliveridleyproject.org/hawksbill-turtle">https://oliveridleyproject.org/hawksbill-turtle</a></li>
+<li>(right image) <a href="https://www.worldwildlife.org/species/olive-ridley-turtle">https://www.worldwildlife.org/species/olive-ridley-turtle</a>]</li>
+</ul>
+</div>
+</body>
+
+</html>
