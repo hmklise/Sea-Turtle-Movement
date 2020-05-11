@@ -14,7 +14,7 @@ For my map, I chose to use data from the [Global Biodiversity Information Facili
 
 I’ve been fascinated with sea turtles since I witnessed Loggerheads nesting and hatching in Trinidad. I’m curious about Geographic Information Systems, and am trying to figure out how to translate a LIS degree to a job at a zoo, aquarium, or marine biology research station.
 
-## Hawksbill Sea Turtle paths
+## Hawksbill Sea Turtle paths of nesting females
 
 
 
@@ -28,7 +28,7 @@ I’ve been fascinated with sea turtles since I witnessed Loggerheads nesting an
 
 
 
-## Olive Ridley Sea Turtle paths
+## Olive Ridley Sea Turtle paths of nesting females
 
 ![olive ridley1](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley1.jpg)
 ![olive ridley2](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/oliveridley2.jpg)
