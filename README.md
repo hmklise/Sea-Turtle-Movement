@@ -1,7 +1,7 @@
 # Sea-Turtle-Movement
 Final project for PFCH
 
-## “Just Keep Swimming:” Movements of Olive Ridley and Hawksbill Sea Turtles
+# “Just Keep Swimming:” Movements of Olive Ridley and Hawksbill Sea Turtles
 
 The original goal of this project was to map the movement of sea turtles.
 
