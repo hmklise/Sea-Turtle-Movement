@@ -53,9 +53,9 @@ I was working with data that I used for a regular expression challenge and I ext
 Eventually, I realized that the data I was working with was a TSV instead of a CSV. I opened it with Numbers and converted it to a CSV. I then used Pandas - another module - to manipulate the CSV data into a list. With the help of google and other tutorials, I figured out the code to extract the latitude column and the longitude column as lists and put them into my gmplot code. From that point it was just a matter of playing around with the appearance of the lines and points.
 
 ----
-### Main page photo sources:
+### Top of page photo sources:
 
-(left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
+*(left image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
 https://oliveridleyproject.org/hawksbill-turtle
-(right image) Female Oliver ridley turtle nesting on the beach during arribada © Susie Gibson
+*(right image) Female Oliver ridley turtle nesting on the beach during arribada © Susie Gibson
 https://oliveridleyproject.org/olive-ridley-turtle
