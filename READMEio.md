@@ -1,2 +1,2 @@
 # hmklise.github.io
-"hello world" >index.html
+print("hello world") 
