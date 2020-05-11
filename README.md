@@ -27,10 +27,23 @@ Sea turtle species tracked at seaturtle.org  http://www.seaturtle.org/tracking/)
 
 Uberti also wrote a book with James Cheshire, which further details and explores technologies used to track animal migrations: Cheshire, James & Uberti, Oliver. (2017). Where the animals go: Tracking wildlife with technology in 50 maps and graphics. W. W. Norton & Company. 
 
+---------------------------------------------------
+
 Picture1 sources:
 (Top image) Aguadormi, identified hawksbill turtle, Maldives © Chiara Fumagalli
 https://oliveridleyproject.org/hawksbill-turtle
 
 (Bottom image) Female Oliver ridley turtle nesting on the beach during arribada © Susie Gibson
 https://oliveridleyproject.org/olive-ridley-turtle
+
+______________________________________________________
+
+Walking through the code:
+
+As is often the case, hours of work ended up being less than 20 lines of code. 
+
+I was working with data that I used for a regular expression challenge and I extracted the latitude and longitude coordinates with a regular expression. Separately, I found a tutorial online for gmap - the google maps API. Figuring out how to request a google maps API was frustrating until I found the right webpage that walked me through it step by step. This tutorial, which also took me a long time to find, also showed how to use the gmplot - a module for google maps - to plot coordinates onto a google map. The test worked, then I hardcoded 8 coordinates into the list and it worked, but I hit a wall when I needed to put my 3000+ coordinates into the gmap and gmplot code as a list. 
+
+Eventually, I realized that the data I was working with was a TSV instead of a CSV. I opened it with Numbers and converted it to a CSV. I then used Pandas - another module - to manipulate the CSV data into a list. With the help of google and other tutorials, I figured out the code to extract the latitude column and the longitude column as lists and put them into my gmplot code. From that point it was just a matter of playing around with the appearance of the lines and points. 
+
 
