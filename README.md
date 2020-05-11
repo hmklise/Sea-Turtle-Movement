@@ -1,6 +1,8 @@
 # Sea-Turtle-Movement
 Final project for PFCH
 
+![turtles](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/turtles.jpg)
+
 # “Just Keep Swimming:” Movements of Olive Ridley and Hawksbill Sea Turtles
 
 The original goal of this project was to map the movement of sea turtles.
