@@ -16,8 +16,11 @@ I’ve been fascinated with sea turtles since I witnessed Loggerheads nesting an
 
 
 
-![Hawksbill1](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/Screen%20Shot%202020-05-10%20at%2010.38.19%20PM.jpg)
-![hawksbill2](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/Screen%20Shot%202020-05-10%20at%2010.38.37%20PM.jpg)
+
+![Hawksbill1](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/hawksbill2.jpg)
+![hawksbill2](https://raw.githubusercontent.com/hmklise/Sea-Turtle-Movement/master/images/hawksbill1.jpg)
+
+
 
 
 
