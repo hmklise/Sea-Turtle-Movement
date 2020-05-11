@@ -45,7 +45,7 @@ GBIF.org (20 April 2020) GBIF Occurrence Download https://doi.org/10.15468/dl.gn
 
 -----
 ### Further Resources:
-Sea turtle species tracked at seaturtle.org http://www.seaturtle.org/tracking/): Hawksbill, Loggerhead, Green Turtle, Olive Ridley, Kemp’s Ridley, and Flatback.
+Sea turtle species tracked at  [seaturtle.org]( http://www.seaturtle.org/tracking/): Hawksbill, Loggerhead, Green Turtle, Olive Ridley, Kemp’s Ridley, and Flatback.
 Uberti also wrote a book with James Cheshire, which further details and explores technologies used to track animal migrations: Cheshire, James & Uberti, Oliver. (2017). Where the animals go: Tracking wildlife with technology in 50 maps and graphics. W. W. Norton & Company.
 
 ---
